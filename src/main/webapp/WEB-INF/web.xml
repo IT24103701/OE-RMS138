@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <!-- Existing UserViews servlet -->
+    <servlet>
+        <servlet-name>ViewsController</servlet-name>
+        <servlet-class>com.example.demo1.views.ViewsController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewsController</servlet-name>
+        <url-pattern>/</url-pattern>
+        <url-pattern>/index</url-pattern>
+        <url-pattern>/create</url-pattern>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
