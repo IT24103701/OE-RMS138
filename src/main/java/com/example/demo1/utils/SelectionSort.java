@@ -101,7 +101,7 @@ public class SelectionSort {
         }
         System.out.println();
 
-        String[] stringArray = {"banana", "apple", "pear", "grape", "orange"};
+        String[] stringArray = {"exam1", "exam2", "exam3", "exam4", "exam5"};
         sorter.sort(stringArray);
         System.out.println("Sorted string array:");
         for (String str : stringArray) {
